@@ -5,10 +5,12 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Scroll from "./components/SmoothScroll";
 
 function App() {
   return (
     <>
+    <Scroll/>
       <Router>
         <Navbar />
         <Routes>

@@ -7,3 +7,13 @@
   font-family: 'Cormorant Garamond', serif;
   
 }
+body{
+  height: 100vh;
+}
+.scrollbar-thumb{
+  background-color: #cb8161 !important;
+}
+.scrollbar-track-y{
+  width: 4px !important;
+  height: 10px !important;
+}
